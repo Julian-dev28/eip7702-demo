@@ -4,13 +4,19 @@ Turn your regular Ethereum account into a smart account - keeping the same addre
 
 ## Quick Start
 
-1. Install dependencies:
+1. Clone the repository:
 
 ```bash
-npm install @zerodev/sdk @zerodev/ecdsa-validator viem
+git clone https://github.com/Julian-dev28/eip7702-demo.git
 ```
 
-2. Set up your environment:
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up your environment:
 
 ```bash
 cp .env.example .env
