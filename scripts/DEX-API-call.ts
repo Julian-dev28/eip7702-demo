@@ -155,11 +155,11 @@ const main = async () => {
     async function geTX() {
         try {
           const swapData = await client.dex.getSwapData({
-            chainId: '196', // Solana chain ID
+            chainId: '8453', // Base chain ID
             fromTokenAddress: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-            toTokenAddress: '0x1e4a5963abfd975d8c9021ce480b42188849d41d',
-            amount: String(10 * 10 ** 16), // 0.1 ETH (in wei)
-            slippage: '0.1',     // 0.1%
+            toTokenAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+            amount: String(10 * 10 ** 14), // .0001 ETH
+            slippage: '0.5', // 0.1% slippage
             userWalletAddress: '0xc17bfc89fe7c61d9417b5bffe087413d40ad8045'
           });
       
