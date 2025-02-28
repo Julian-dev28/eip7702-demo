@@ -32,7 +32,6 @@ import { privateKeyToAccount } from "viem/accounts";
  * 4. Verify the upgrade by performing a smart account operation
  */
 
-// Use the private key saved from the ERC-4337 deployment
 const PRIVATE_KEY = process.env.PRIVATE_KEY!;
 
 const main = async () => {
